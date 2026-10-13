@@ -1,0 +1,11 @@
+m1 = float (input("Enter mark of subject 1: "))
+m2 = float (input("Enter mark of subject 2: "))
+m3 = float (input("Enter mark of subject 3: "))
+m4 = float (input("Enter mark of subject 4: "))
+m5 = float (input("Enter mark of subject 5: "))
+
+total = m1 + m2+ m3 + m4 + m5
+percentage = (total / 500)* 100
+
+print("Total marks =", total)
+print("percentage =", percentage)
